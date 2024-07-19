@@ -1,0 +1,11 @@
+A Data Base Management System is a system software for easy, efficient and reliable data processing and management.
+ It can be used for:
+
+1.Creation of a database.
+2.Retrieval of information from the database.
+3.Updating the database.
+4.Managing a database.
+	Multiple User Interface
+	Data scalability, expandability and flexibility: We can change schema of the database, all schema will be updated according to it.
+	Overall the time for developing an application is reduced.
+	Security: Simplifies data storage as it is possible to assign security permissions allowing restricted access to data.

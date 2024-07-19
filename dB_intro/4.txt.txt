@@ -1,0 +1,25 @@
+Challenges of File-Based Storage Systems Tackled by Database Management Systems (DBMS)
+Data Redundancy and Inconsistency:
+
+Challenge in File-Based Systems: In file-based systems, duplicate copies of data can exist, leading to redundancy and potential inconsistencies when updates are not propagated across all copies.
+DBMS Solution: DBMSs use normalization techniques to minimize redundancy. They store data in related tables and use keys to ensure consistency, reducing duplication and ensuring that any updates are automatically reflected wherever the data is used.
+Difficulty in Data Retrieval:
+
+Challenge in File-Based Systems: Finding specific data in a file-based system can be difficult and time-consuming, requiring manual searches through files and folders.
+DBMS Solution: DBMSs provide powerful query languages like SQL, which allow users to retrieve and manipulate data quickly and efficiently using complex queries, without needing to know the exact location of the data.
+Poor Data Integrity:
+
+Challenge in File-Based Systems: There are no built-in mechanisms to enforce data validation, leading to potential data corruption and errors.
+DBMS Solution: DBMSs enforce data integrity through constraints, rules, and triggers, ensuring that only valid data is entered and maintained in the database.
+Limited Scalability:
+
+Challenge in File-Based Systems: As the number of files grows, managing and accessing these files becomes increasingly complex and slower.
+DBMS Solution: DBMSs are designed to handle large volumes of data efficiently. They use indexing, partitioning, and optimization techniques to ensure fast data access and management even as the data volume grows.
+Security Concerns:
+
+Challenge in File-Based Systems: Basic access control mechanisms may not be sufficient for complex security requirements, and protecting sensitive data often requires additional measures.
+DBMS Solution: DBMSs provide robust security features, including advanced access control, encryption, and user authentication. These features ensure that only authorized users can access or modify the data.
+Backup and Recovery:
+
+Challenge in File-Based Systems: Backing up and restoring data can be complex and time-consuming, with a higher risk of data loss during system failures.
+DBMS Solution: DBMSs offer automated backup and recovery solutions. They maintain transaction logs, support point-in-time recovery, and allow for easy restoration of data to ensure minimal data loss and downtime

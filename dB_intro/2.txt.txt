@@ -1,0 +1,27 @@
+A file-based storage system is a method of storing and organizing data in files on a computer's storage medium, such as a hard drive, SSD, or network-attached storage (NAS). Each file is an independent entity, and the operating system manages these files using a file system, such as NTFS, FAT32, ext4, or HFS+.
+
+Major Challenges of a File-Based Storage System
+Data Redundancy and Inconsistency:
+
+Redundancy: Duplicate copies of the same data can exist in multiple files, leading to unnecessary storage use.
+Inconsistency: When data is duplicated, changes made in one file might not be reflected in another, causing inconsistency.
+Difficulty in Data Retrieval:
+
+Manual Search: Users often need to know the exact file name or location, making it difficult to find specific data without a well-organized structure.
+No Query Capabilities: Unlike databases, file systems do not support complex queries to retrieve data based on specific criteria easily.
+Poor Data Integrity:
+
+Lack of Constraints: There are no inherent mechanisms to enforce data validation rules, which can lead to data corruption or invalid data entries.
+Manual Management: Ensuring data integrity often requires manual checks and updates, which are prone to human error.
+Limited Scalability:
+
+Performance Issues: As the number of files grows, the performance of the file system can degrade, making file access slower.
+Management Complexity: Managing a large number of files can become cumbersome, especially when dealing with hierarchical directories and nested folders.
+Security Concerns:
+
+Access Control: File systems typically offer basic access control mechanisms, which may not be sufficient for complex security requirements.
+Data Protection: Protecting sensitive data in files requires additional encryption and security measures, which are not inherently provided by file systems.
+Backup and Recovery:
+
+Complex Procedures: Backing up and restoring file-based data can be complex and time-consuming, especially if files are scattered across different directories.
+Data Loss Risk: In the event of a system failure, there is a higher risk of data loss if proper backup mechanisms are not in place.
